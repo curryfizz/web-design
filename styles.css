@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(https://fonts.google.com/specimen/Inter);
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+.header{
+  height: 10%;
+  margin-top: 20px;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-bottom: 20px;
+}
+.mainheading{
+  margin-bottom: 10%;
+  font-weight: 700;
+  font-size: 150%;;
+}
+
+
+.togglebtn{
+  position: relative;
+  text-align: left;
+}
