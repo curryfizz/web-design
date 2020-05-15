@@ -1,27 +1,68 @@
-@font-face {
-  font-family: 'Inter';
-  src: url(https://fonts.google.com/specimen/Inter);
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter');
 
 body{
-  font-family: 'Inter', sans-serif;
+  display: grid;
+  grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  font-family: Inter, sans-serif;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
 }
 
 .header{
-  height: 10%;
-  margin-top: 20px;
-  margin-left: 7.5%;
-  margin-right: 7.5%;
-  margin-bottom: 20px;
-}
-.mainheading{
-  margin-bottom: 10%;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display:  grid;
   font-weight: 700;
-  font-size: 150%;;
+  grid-template-columns: 85% 15%;
+  grid-template-rows: 70% 30%;
+  margin-bottom: 3%;
 }
 
+h4{
+  margin: 0 0 0 0;
+}
+
+h1{
+  margin: 0 0 0 0;
+}
+
+.mainheading{
+  margin-top: 0px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.mainsubheadind{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
 
 .togglebtn{
   position: relative;
-  text-align: left;
+  top: 50%;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.navigation{
+  grid-row-start: 2;
+  grid-row-end: 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 2%;
+}
+
+.general{
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 12px;
+}
+
+.facebook{
+  border-top: 1% solid hsl(195, 100%, 50%);
 }
