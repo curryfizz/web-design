@@ -1,48 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+          <!--<style>
+            .attribution { font-size: 11px; text-align: center; }
+            .attribution a { color: hsl(228, 45%, 44%); }
+          </style>-->
 </head>
 <body>
+  <header class="header">
+    <h4 class="togglebtn">Dark Mode</h4>
+    <h1 class="mainheading">Social Media Dashboard</h1>
+    <h4 class="mainsubheadind">Total Followers: 23,004</h4>
 
-  Social Media Dashboard
-  Total Followers: 23,004
 
-  Dark Mode
 
-  
+  </header>
 
-  @nathanf
-  1987
-  Followers
-  12 Today
 
-  @nathanf
-  1044
-  Followers
-  99 Today
+   <nav class="navigation">
 
-  @realnathanf
-  11k
-  Followers
-  1099 Today
+       <div class="facebook general">
+              <div class="username logo">
+                <div class="border"></div>
+                <div class="logoname">
+                  <img src="images\icon-facebook.svg">
+                  <h6 class="usertext">@nathanf</h6>
+                </div>
+              </div>
+            <div class="followers">
+                <h1>1987</h1>
+                <h5 class="followerstext">Followers</h5>
+            </div>
+            <div class="newfollows">12 Today</div>
+      </div>
 
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
+      <div class="twitter general">
+            <div class="username">
+                <div class="border"></div>
+                <div class="logoname">
+                  <img src="images\icon-twitter.svg">
+                  <h6 class="usertext">@nathanf</h6>
+                </div>
+            </div>
+            <div class="followers">
+                <h1>1044</h1>
+                <h5 class="followerstext">Followers</h5>
+             </div>
+            <div class="newfollows">99 Today</div>
+      </div>
 
+      <div class="instagram general">
+            <div class="username">
+                <div class="border"></div>
+                <div class="logoname">
+                  <img src="images\icon-instagram.svg">
+                  <h6 class="usertext">@realnathanf</h6>
+                </div>
+            </div>
+            <div class="followers">
+                <h1>11k</h1>
+                <h5 class="followerstext">Followers</h5>
+            </div>
+            <div class="newfollows">1099 Today</div>
+      </div>
+
+      <div class="youtube general">
+            <div class="username">
+                <div class="border"></div>
+                <div class="logoname">
+                  <img src="images\icon-youtube.svg">
+                  <h6 class="usertext">Nathan F.</h6>
+                </div>
+            </div>
+            <div class="followers">
+                <h1>8239</h1>
+                <h5 class="followerstext">Subscribers</h5>
+            </div>
+            <div class="newfollows">144 Today</div>
+          </div>
+
+  </nav>
 
 
   Overview - Today
@@ -78,9 +124,9 @@
   Total Views
   1407
   12%
-  
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
