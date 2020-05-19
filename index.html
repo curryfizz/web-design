@@ -16,22 +16,33 @@
           </style>-->
 </head>
 <body>
-    <header class="header">
-      <h5 class="togglebtn">Dark Mode</h5>
-      <h1 class="mainheading">Social Media Dashboard</h1>
-      <h4 class="mainsubheadind">Total Followers: 23,004</h4>
+    <div class="card"></div>
+    <header >
+      <div class="header">
+
+          <h2 class="mainheading">Social Media Dashboard</h2>
+      
+        <h5 class="mainsubheadind">Total Followers: 23,004</h5>
+        <div class="line"></div>
+        <h5 class="togglebtn">Dark Mode</h5>
+        <script src="togglebtn.js"></script>
+        <div id="button" onclick="toggledarkmode()">
+          <div class="buttonshapemain">
+            <div class="buttonshapecircle"></div>
+          </div>
+        </div>
+      </div>
 
 
 
     </header>
 
 
-     <nav class="navigation">
-
+     <nav>
+       <div class="navigation">
          <div class="facebook general">
                 <div class="border"></div>
-                <div class="username logo">
-
+                <div class="username">
                     <img src="images\icon-facebook.svg">
                     <h6 class="usertext">@nathanf</h6>
                 </div>
@@ -92,48 +103,100 @@
                   <h6 class="down">144 Today</h6>
                </div>
             </div>
+          </div>
+
 
     </nav>
 
+    <main class="maincontent">
+        <h2 class="Overviewtext">Overview - Today</h2>
+
+        <div class="overviewcells one">
+            <h5 class="overviewheading">Page Views</h5>
+            <img class="logo" src="images\icon-facebook.svg">
+            <h2 class="count">87</h2>
+            <div class="status">
+              <img src="images\icon-up.svg">
+              <h6 class="up">3%</h6>
+            </div>
+        </div>
+
+        <div class="overviewcells two">
+            <h5 class="overviewheading">Likes</h5>
+            <img  class="logo" src="images\icon-facebook.svg">
+            <h2 class="count">52</h2>
+            <div class="status">
+              <img src="images\icon-down.svg">
+              <h6 class="down">2%</h6>
+            </div>
+        </div>
+
+        <div class="overviewcells three">
+            <h5 class="overviewheading">Likes</h5>
+            <img  class="logo"  src="images\icon-instagram.svg">
+            <h2 class="count">5462</h2>
+            <div class="status">
+                  <img src="images\icon-up.svg">
+                  <h6 class="up">2257%</h6>
+            </div>
+        </div>
+
+        <div class="overviewcells four">
+            <h5 class="overviewheading">Profile Views</h5>
+            <img class="logo"  src="images\icon-instagram.svg">
+            <h2 class="count">52k</h2>
+            <div class="status">
+              <img src="images\icon-up.svg">
+              <h6 class="up">1375%</h6>
+            </div>
+        </div>
+
+        <div class="overviewcells five">
+            <h5 class="overviewheading">Retweets</h5>
+            <img class="logo"  src="images\icon-twitter.svg">
+            <h2 class="count">117</h2>
+            <div class="status">
+              <img src="images\icon-up.svg">
+              <h6 class="up">303%</h6>
+            </div>
+        </div>
+
+        <div class="overviewcells six">
+            <h5 class="overviewheading">Likes</h5>
+            <img class="logo"  src="images\icon-twitter.svg">
+            <h2 class="count">507</h2>
+            <div class="status">
+              <img src="images\icon-up.svg">
+              <h6 class="up">553%</h6>
+            </div>
+        </div>
+
+        <div class="overviewcells seven">
+            <h5 class="overviewheading">Likes</h5>
+            <img class="logo"  src="images\icon-youtube.svg">
+            <h2 class="count">107</h2>
+            <div class="status">
+              <img src="images\icon-down.svg">
+              <h6 class="down">19%</h6>
+            </div>
+        </div>
+
+        <div class="overviewcells eight">
+            <h5 class="overviewheading">Total Views</h5>
+            <img class="logo"  src="images\icon-facebook.svg">
+            <h2 class="count">1407</h2>
+            <div class="status">
+              <img src="images\icon-down.svg">
+              <h6 class="down">12%</h6>
+            </div>
+        </div>
 
 
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
+     </main>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Nawsheen Mehereen</a>.
   </div>
 </body>
 </html>
